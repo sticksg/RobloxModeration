@@ -13,3 +13,16 @@ How does this work? Well...
 
 ## 🚨 Bugs
 I am aware that this repository may contain bugs as I have not thuroughly tested it in a large experience. If you encounter any bugs, simply submit a bug report. I will do my best to get back to you, and I will update the repository with updated code. Your feedback is appreciated!
+
+## 📋 Use Instructions
+So, how do I use this thing? Good question! **This system features 4 commands:**
+- **:ban (player) (reason)** - Bans a player from the experience.
+- **:kick (player) (reason)** - Kicks the player from the experience.
+- **:admin (player) (reason)** - Gives administrative permissions to a player.
+- **:unban (player)** - Unbans a player from the experience.
+🛑 Please note, this system relies on ROBLOX's DataStore Service, meaning that **bans and admins do NOT transfer to other experiences**.
+To use the system, follow the following steps:
+1. First, press **'** on your keyboard. This will open the admin panel.
+2. Click on the "Enter command" field on the GUI, and enter your desired command. Commands should start with the : prefix. Arguments (ex: :ban (player) (reason)) should be seperated by spaces.
+3. Press **enter** (or return) on your keyboard. This will send the admin command and close the panel.
+4. If you opened the panel on accident, just press enter with an empty textbox.
